@@ -1,0 +1,7 @@
+function deleteAllMailsFromRediffMailInbox()
+{
+	$('.rd_mail_sel_all').click();
+	$('.rd_fil_del').click();
+	$('#jqi_state0_buttonOk').click();
+}
+setTimeout(deleteAllMailsFromRediffMailInbox, 8000);
